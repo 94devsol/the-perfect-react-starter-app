@@ -80,7 +80,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/create-account" component={CreateAccount} />
           <Route path="/forgot-password" component={ForgotPassword} />
-          <Route path="/" component={Layout} />
+          {/* <Route path="/" component={Layout} /> */}
           {/* If you have an index page, you can remothis Redirect */}
           <PrivateRoute path="/" component={Layout} />
         </Switch>

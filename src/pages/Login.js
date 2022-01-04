@@ -11,7 +11,7 @@ function Login() {
   const history = useHistory();
   const signin = async () => {
     console.log("🚀 ~ file: Login.js ~ line 17 ~ Login ~ auth", auth);
-    // setAuthData({ name: "hello" });
+    setAuthData({ name: "hello" });
     history.push("/dashboard");
   };
   return (
