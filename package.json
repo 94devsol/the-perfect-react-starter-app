@@ -31,6 +31,7 @@
     "react-focus-lock": "2.4.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.1",
+    "react-toast-notifications": "^2.5.1",
     "react-transition-group": "4.4.1",
     "subscriptions-transport-ws": "^0.11.0",
     "urql": "^2.0.5"
